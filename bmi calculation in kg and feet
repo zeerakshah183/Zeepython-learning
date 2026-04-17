@@ -1,0 +1,11 @@
+# calculating bmi through weight and height
+print("*" * 20)
+print("BMI CALCULATOR")
+print("*" * 20)
+Name= input("what is your name?\n")
+Weight= float(input("what is your weight?"' ENTER YOUR WEIGHT IN KG! \n'))  #enter your weight in it
+Height_in_feets= float(input("what is your height?" 'ENTER YOUR HEIGHT IN Feets\n'))#enter height bcz for bmi you need weight and height both
+Height_in_Meters = Height_in_feets / 3.281
+Bmi= Weight / (Height_in_Meters **2)  #bmi formula
+Bmi = round(Bmi,2)
+print(f"your Bmi is{Bmi}")
