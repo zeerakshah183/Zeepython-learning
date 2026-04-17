@@ -1,0 +1,6 @@
+# calculating bmi through weight and height
+Name= input("what is your name?\n")
+Weight= int(input("what is your weight?\n")) #enter your weight in it
+Height = int(input("what is your height?\n"))#enter height bcz for bmi you need weight and height both
+Bmi= Weight/Height  #bmi formula
+print(f"your bmi is{Bmi}")
